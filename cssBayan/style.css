@@ -1,0 +1,28 @@
+body{
+    align-items: center;
+    background: #ffe0e6;
+    width: 80%;
+    margin: 0 20%; 
+}
+h1{
+    padding: auto;
+    text-align: center;
+}
+.main_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 80%;
+    margin: 0 20%;
+}
+.Mem-block{  
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ cursor: pointer;   
+ text-align: center;
+}
+.Mem-block input{
+}
+.Mem-block img{
+}
