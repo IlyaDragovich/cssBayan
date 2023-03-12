@@ -1,0 +1,62 @@
+body{
+    font-weight: bold;
+    color:#574b90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f8a5c2;
+    max-width: 80%;
+    margin: 0 auto; 
+}
+h1{  
+    padding: 0 5%;
+    text-align: center;
+}
+.main_block{
+    margin: 1% auto;
+}
+.Mem-block{ 
+    padding: 0 4%;
+    border-radius: 5%;
+    background:#f78fb3;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;   
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.Mem-input{
+    width: 0;
+    height: 0;
+    appearance: none;
+    position: absolute;
+    cursor: pointer;
+}
+.Mem-input:checked ~ .Mem-label{
+    background-color: #c44569 ;
+}
+.Mem-input:checked ~ .Mem-picture{
+    display: block;
+}
+.Mem-label{
+    cursor: pointer;  
+    padding: 1%;
+    display: block;
+    transition: background .1s ease-in-out;
+}
+.Mem-label:hover{
+    background-color: #c44569 ;
+}
+.Mem-picture{
+   display: none; 
+   padding-bottom: 4%;
+   border-radius: 5%;
+}
+img{   
+   cursor: pointer;   
+   max-width: 80%; 
+   max-height:80%; 
+}
